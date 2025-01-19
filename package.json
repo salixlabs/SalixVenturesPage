@@ -1,0 +1,13 @@
+{
+  "name": "salix-ventures-site",
+  "version": "1.0.0",
+  "description": "Salix Ventures corporate website",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "python -m http.server 8000 --directory dist"
+  },
+  "dependencies": {
+    "marked": "^4.0.0"
+  }
+} 
